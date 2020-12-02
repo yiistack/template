@@ -5,17 +5,14 @@
     "keywords": [
         "_____"
     ],
-    "homepage": "https://www.yiiframework.com/",
+    "homepage": "https://github.com/yiistack",
     "license": "MIT",
     "support": {
         "issues": "https://github.com/yiistack/_____/issues?state=open",
-        "forum": "https://www.yiiframework.com/forum/",
-        "wiki": "https://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yiistack/_____"
     },
     "require": {
-        "php": "^7.4"
+        "php": "^7.4|^8.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.4",
@@ -33,7 +30,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "3.0.x-dev"
+            "dev-master": "1.0.x-dev"
         }
     },
     "scripts": {
