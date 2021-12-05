@@ -13,6 +13,7 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/yiistack/_____/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/yiistack/_____/?branch=master)
 [![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyiistack%2F_____%2Fmaster)](https://dashboard.stryker-mutator.io/reports/github.com/yiistack/_____/master)
 [![static analysis](https://github.com/yiistack/_____/workflows/static%20analysis/badge.svg)](https://github.com/yiistack/_____/actions?query=workflow%3A%22static+analysis%22)
+[![type-coverage](https://shepherd.dev/github/yiistack/_____/coverage.svg)](https://shepherd.dev/github/yiistack/_____)
 
 The package ...
 
@@ -43,7 +44,7 @@ The package is tested with [PHPUnit](https://phpunit.de/). To run tests:
 The package tests are checked with [Infection](https://infection.github.io/) mutation framework. To run it:
 
 ```shell
-./vendor/bin/infection
+./vendor/bin/roave-infection-static-analysis-plugin
 ```
 
 ### Static analysis
